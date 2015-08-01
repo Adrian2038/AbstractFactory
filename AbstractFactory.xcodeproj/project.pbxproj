@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BC190861B639F2A002C9F5C /* Sauce.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC190851B639F2A002C9F5C /* Sauce.m */; };
+		8BC190891B63A006002C9F5C /* MozzaChess.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC190881B63A006002C9F5C /* MozzaChess.m */; };
+		8BC1908C1B63A014002C9F5C /* ReggiChess.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC1908B1B63A014002C9F5C /* ReggiChess.m */; };
+		8BC1908F1B63A038002C9F5C /* PlumSauce.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC1908E1B63A038002C9F5C /* PlumSauce.m */; };
+		8BC190921B63A04D002C9F5C /* MariaSauce.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC190911B63A04D002C9F5C /* MariaSauce.m */; };
+		8BC190961B63A0F6002C9F5C /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC190951B63A0F6002C9F5C /* Pizza.m */; };
+		8BC190991B63A260002C9F5C /* ChessPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC190981B63A260002C9F5C /* ChessPizza.m */; };
+		8BC1909C1B63A3B4002C9F5C /* ClamPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC1909B1B63A3B4002C9F5C /* ClamPizza.m */; };
+		8BC190A21B63A44C002C9F5C /* NYPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC1909F1B63A44C002C9F5C /* NYPizzaStore.m */; };
+		8BC190A31B63A44C002C9F5C /* PizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC190A11B63A44C002C9F5C /* PizzaStore.m */; };
+		8BDF77231B63618B000982A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF77221B63618B000982A3 /* main.m */; };
+		8BDF77261B63618B000982A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF77251B63618B000982A3 /* AppDelegate.m */; };
+		8BDF77291B63618B000982A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF77281B63618B000982A3 /* ViewController.m */; };
+		8BDF772C1B63618B000982A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF772A1B63618B000982A3 /* Main.storyboard */; };
+		8BDF772E1B63618B000982A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF772D1B63618B000982A3 /* Images.xcassets */; };
+		8BDF77311B63618B000982A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF772F1B63618B000982A3 /* LaunchScreen.xib */; };
+		8BDF773D1B63618B000982A3 /* AbstractFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF773C1B63618B000982A3 /* AbstractFactoryTests.m */; };
+		8BDF77481B636313000982A3 /* PizzaIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF77471B636313000982A3 /* PizzaIngredientFactory.m */; };
+		8BDF774C1B63634C000982A3 /* NewYorkPizzaIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF774B1B63634C000982A3 /* NewYorkPizzaIngredientFactory.m */; };
+		8BDF774F1B636363000982A3 /* ChicagoPizzaIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF774E1B636363000982A3 /* ChicagoPizzaIngredientFactory.m */; };
+		8BDF77531B6363C9000982A3 /* FreshClam.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF77521B6363C9000982A3 /* FreshClam.m */; };
+		8BDF77561B6363DA000982A3 /* Clam.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF77551B6363DA000982A3 /* Clam.m */; };
+		8BDF77591B636409000982A3 /* FroenClam.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF77581B636409000982A3 /* FroenClam.m */; };
+		8BDF775C1B63642A000982A3 /* Chess.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF775B1B63642A000982A3 /* Chess.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BDF77371B63618B000982A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BDF77151B63618B000982A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BDF771C1B63618B000982A3;
+			remoteInfo = AbstractFactory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BC190841B639F2A002C9F5C /* Sauce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sauce.h; sourceTree = "<group>"; };
+		8BC190851B639F2A002C9F5C /* Sauce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sauce.m; sourceTree = "<group>"; };
+		8BC190871B63A006002C9F5C /* MozzaChess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MozzaChess.h; sourceTree = "<group>"; };
+		8BC190881B63A006002C9F5C /* MozzaChess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MozzaChess.m; sourceTree = "<group>"; };
+		8BC1908A1B63A014002C9F5C /* ReggiChess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReggiChess.h; sourceTree = "<group>"; };
+		8BC1908B1B63A014002C9F5C /* ReggiChess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReggiChess.m; sourceTree = "<group>"; };
+		8BC1908D1B63A038002C9F5C /* PlumSauce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlumSauce.h; sourceTree = "<group>"; };
+		8BC1908E1B63A038002C9F5C /* PlumSauce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlumSauce.m; sourceTree = "<group>"; };
+		8BC190901B63A04D002C9F5C /* MariaSauce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MariaSauce.h; sourceTree = "<group>"; };
+		8BC190911B63A04D002C9F5C /* MariaSauce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MariaSauce.m; sourceTree = "<group>"; };
+		8BC190941B63A0F6002C9F5C /* Pizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
+		8BC190951B63A0F6002C9F5C /* Pizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
+		8BC190971B63A260002C9F5C /* ChessPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessPizza.h; sourceTree = "<group>"; };
+		8BC190981B63A260002C9F5C /* ChessPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessPizza.m; sourceTree = "<group>"; };
+		8BC1909A1B63A3B4002C9F5C /* ClamPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClamPizza.h; sourceTree = "<group>"; };
+		8BC1909B1B63A3B4002C9F5C /* ClamPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClamPizza.m; sourceTree = "<group>"; };
+		8BC1909E1B63A44C002C9F5C /* NYPizzaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYPizzaStore.h; sourceTree = "<group>"; };
+		8BC1909F1B63A44C002C9F5C /* NYPizzaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYPizzaStore.m; sourceTree = "<group>"; };
+		8BC190A01B63A44C002C9F5C /* PizzaStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizzaStore.h; sourceTree = "<group>"; };
+		8BC190A11B63A44C002C9F5C /* PizzaStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PizzaStore.m; sourceTree = "<group>"; };
+		8BC190A51B63A4D9002C9F5C /* ABFactoryPCH.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFactoryPCH.pch; sourceTree = "<group>"; };
+		8BDF771D1B63618B000982A3 /* AbstractFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbstractFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDF77211B63618B000982A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BDF77221B63618B000982A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BDF77241B63618B000982A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BDF77251B63618B000982A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BDF77271B63618B000982A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BDF77281B63618B000982A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BDF772B1B63618B000982A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BDF772D1B63618B000982A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8BDF77301B63618B000982A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8BDF77361B63618B000982A3 /* AbstractFactoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbstractFactoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDF773B1B63618B000982A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BDF773C1B63618B000982A3 /* AbstractFactoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryTests.m; sourceTree = "<group>"; };
+		8BDF77461B636313000982A3 /* PizzaIngredientFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizzaIngredientFactory.h; sourceTree = "<group>"; };
+		8BDF77471B636313000982A3 /* PizzaIngredientFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PizzaIngredientFactory.m; sourceTree = "<group>"; };
+		8BDF774A1B63634C000982A3 /* NewYorkPizzaIngredientFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewYorkPizzaIngredientFactory.h; sourceTree = "<group>"; };
+		8BDF774B1B63634C000982A3 /* NewYorkPizzaIngredientFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewYorkPizzaIngredientFactory.m; sourceTree = "<group>"; };
+		8BDF774D1B636363000982A3 /* ChicagoPizzaIngredientFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChicagoPizzaIngredientFactory.h; sourceTree = "<group>"; };
+		8BDF774E1B636363000982A3 /* ChicagoPizzaIngredientFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChicagoPizzaIngredientFactory.m; sourceTree = "<group>"; };
+		8BDF77511B6363C9000982A3 /* FreshClam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreshClam.h; sourceTree = "<group>"; };
+		8BDF77521B6363C9000982A3 /* FreshClam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreshClam.m; sourceTree = "<group>"; };
+		8BDF77541B6363DA000982A3 /* Clam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clam.h; sourceTree = "<group>"; };
+		8BDF77551B6363DA000982A3 /* Clam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clam.m; sourceTree = "<group>"; };
+		8BDF77571B636409000982A3 /* FroenClam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FroenClam.h; sourceTree = "<group>"; };
+		8BDF77581B636409000982A3 /* FroenClam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FroenClam.m; sourceTree = "<group>"; };
+		8BDF775A1B63642A000982A3 /* Chess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chess.h; sourceTree = "<group>"; };
+		8BDF775B1B63642A000982A3 /* Chess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chess.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BDF771A1B63618B000982A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BDF77331B63618B000982A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BC190931B63A0DB002C9F5C /* Pizza */ = {
+			isa = PBXGroup;
+			children = (
+				8BC190941B63A0F6002C9F5C /* Pizza.h */,
+				8BC190951B63A0F6002C9F5C /* Pizza.m */,
+				8BC190971B63A260002C9F5C /* ChessPizza.h */,
+				8BC190981B63A260002C9F5C /* ChessPizza.m */,
+				8BC1909A1B63A3B4002C9F5C /* ClamPizza.h */,
+				8BC1909B1B63A3B4002C9F5C /* ClamPizza.m */,
+			);
+			name = Pizza;
+			sourceTree = "<group>";
+		};
+		8BC1909D1B63A41C002C9F5C /* PizzaStore */ = {
+			isa = PBXGroup;
+			children = (
+				8BC190A01B63A44C002C9F5C /* PizzaStore.h */,
+				8BC190A11B63A44C002C9F5C /* PizzaStore.m */,
+				8BC1909E1B63A44C002C9F5C /* NYPizzaStore.h */,
+				8BC1909F1B63A44C002C9F5C /* NYPizzaStore.m */,
+			);
+			name = PizzaStore;
+			sourceTree = "<group>";
+		};
+		8BDF77141B63618B000982A3 = {
+			isa = PBXGroup;
+			children = (
+				8BDF771F1B63618B000982A3 /* AbstractFactory */,
+				8BDF77391B63618B000982A3 /* AbstractFactoryTests */,
+				8BDF771E1B63618B000982A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BDF771E1B63618B000982A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BDF771D1B63618B000982A3 /* AbstractFactory.app */,
+				8BDF77361B63618B000982A3 /* AbstractFactoryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BDF771F1B63618B000982A3 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				8BDF77271B63618B000982A3 /* ViewController.h */,
+				8BDF77281B63618B000982A3 /* ViewController.m */,
+				8BC1909D1B63A41C002C9F5C /* PizzaStore */,
+				8BDF77491B636318000982A3 /* Factoey */,
+				8BC190931B63A0DB002C9F5C /* Pizza */,
+				8BDF77501B636369000982A3 /* Ingredient */,
+				8BDF772A1B63618B000982A3 /* Main.storyboard */,
+				8BDF772D1B63618B000982A3 /* Images.xcassets */,
+				8BDF772F1B63618B000982A3 /* LaunchScreen.xib */,
+				8BDF77201B63618B000982A3 /* Supporting Files */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		8BDF77201B63618B000982A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BDF77241B63618B000982A3 /* AppDelegate.h */,
+				8BDF77251B63618B000982A3 /* AppDelegate.m */,
+				8BDF77211B63618B000982A3 /* Info.plist */,
+				8BDF77221B63618B000982A3 /* main.m */,
+				8BC190A51B63A4D9002C9F5C /* ABFactoryPCH.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BDF77391B63618B000982A3 /* AbstractFactoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BDF773C1B63618B000982A3 /* AbstractFactoryTests.m */,
+				8BDF773A1B63618B000982A3 /* Supporting Files */,
+			);
+			path = AbstractFactoryTests;
+			sourceTree = "<group>";
+		};
+		8BDF773A1B63618B000982A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BDF773B1B63618B000982A3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BDF77491B636318000982A3 /* Factoey */ = {
+			isa = PBXGroup;
+			children = (
+				8BDF77461B636313000982A3 /* PizzaIngredientFactory.h */,
+				8BDF77471B636313000982A3 /* PizzaIngredientFactory.m */,
+				8BDF774A1B63634C000982A3 /* NewYorkPizzaIngredientFactory.h */,
+				8BDF774B1B63634C000982A3 /* NewYorkPizzaIngredientFactory.m */,
+				8BDF774D1B636363000982A3 /* ChicagoPizzaIngredientFactory.h */,
+				8BDF774E1B636363000982A3 /* ChicagoPizzaIngredientFactory.m */,
+			);
+			name = Factoey;
+			sourceTree = "<group>";
+		};
+		8BDF77501B636369000982A3 /* Ingredient */ = {
+			isa = PBXGroup;
+			children = (
+				8BDF77541B6363DA000982A3 /* Clam.h */,
+				8BDF77551B6363DA000982A3 /* Clam.m */,
+				8BDF77511B6363C9000982A3 /* FreshClam.h */,
+				8BDF77521B6363C9000982A3 /* FreshClam.m */,
+				8BDF77571B636409000982A3 /* FroenClam.h */,
+				8BDF77581B636409000982A3 /* FroenClam.m */,
+				8BDF775A1B63642A000982A3 /* Chess.h */,
+				8BDF775B1B63642A000982A3 /* Chess.m */,
+				8BC190871B63A006002C9F5C /* MozzaChess.h */,
+				8BC190881B63A006002C9F5C /* MozzaChess.m */,
+				8BC1908A1B63A014002C9F5C /* ReggiChess.h */,
+				8BC1908B1B63A014002C9F5C /* ReggiChess.m */,
+				8BC190841B639F2A002C9F5C /* Sauce.h */,
+				8BC190851B639F2A002C9F5C /* Sauce.m */,
+				8BC1908D1B63A038002C9F5C /* PlumSauce.h */,
+				8BC1908E1B63A038002C9F5C /* PlumSauce.m */,
+				8BC190901B63A04D002C9F5C /* MariaSauce.h */,
+				8BC190911B63A04D002C9F5C /* MariaSauce.m */,
+			);
+			name = Ingredient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BDF771C1B63618B000982A3 /* AbstractFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BDF77401B63618B000982A3 /* Build configuration list for PBXNativeTarget "AbstractFactory" */;
+			buildPhases = (
+				8BDF77191B63618B000982A3 /* Sources */,
+				8BDF771A1B63618B000982A3 /* Frameworks */,
+				8BDF771B1B63618B000982A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbstractFactory;
+			productName = AbstractFactory;
+			productReference = 8BDF771D1B63618B000982A3 /* AbstractFactory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BDF77351B63618B000982A3 /* AbstractFactoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BDF77431B63618B000982A3 /* Build configuration list for PBXNativeTarget "AbstractFactoryTests" */;
+			buildPhases = (
+				8BDF77321B63618B000982A3 /* Sources */,
+				8BDF77331B63618B000982A3 /* Frameworks */,
+				8BDF77341B63618B000982A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BDF77381B63618B000982A3 /* PBXTargetDependency */,
+			);
+			name = AbstractFactoryTests;
+			productName = AbstractFactoryTests;
+			productReference = 8BDF77361B63618B000982A3 /* AbstractFactoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BDF77151B63618B000982A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = William;
+				TargetAttributes = {
+					8BDF771C1B63618B000982A3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8BDF77351B63618B000982A3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8BDF771C1B63618B000982A3;
+					};
+				};
+			};
+			buildConfigurationList = 8BDF77181B63618B000982A3 /* Build configuration list for PBXProject "AbstractFactory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BDF77141B63618B000982A3;
+			productRefGroup = 8BDF771E1B63618B000982A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BDF771C1B63618B000982A3 /* AbstractFactory */,
+				8BDF77351B63618B000982A3 /* AbstractFactoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BDF771B1B63618B000982A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDF772C1B63618B000982A3 /* Main.storyboard in Resources */,
+				8BDF77311B63618B000982A3 /* LaunchScreen.xib in Resources */,
+				8BDF772E1B63618B000982A3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BDF77341B63618B000982A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BDF77191B63618B000982A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC190961B63A0F6002C9F5C /* Pizza.m in Sources */,
+				8BDF77291B63618B000982A3 /* ViewController.m in Sources */,
+				8BC190A21B63A44C002C9F5C /* NYPizzaStore.m in Sources */,
+				8BDF77261B63618B000982A3 /* AppDelegate.m in Sources */,
+				8BC1909C1B63A3B4002C9F5C /* ClamPizza.m in Sources */,
+				8BC190891B63A006002C9F5C /* MozzaChess.m in Sources */,
+				8BC190A31B63A44C002C9F5C /* PizzaStore.m in Sources */,
+				8BDF775C1B63642A000982A3 /* Chess.m in Sources */,
+				8BDF77531B6363C9000982A3 /* FreshClam.m in Sources */,
+				8BDF77481B636313000982A3 /* PizzaIngredientFactory.m in Sources */,
+				8BDF77231B63618B000982A3 /* main.m in Sources */,
+				8BDF774C1B63634C000982A3 /* NewYorkPizzaIngredientFactory.m in Sources */,
+				8BDF77561B6363DA000982A3 /* Clam.m in Sources */,
+				8BC1908C1B63A014002C9F5C /* ReggiChess.m in Sources */,
+				8BDF774F1B636363000982A3 /* ChicagoPizzaIngredientFactory.m in Sources */,
+				8BC190861B639F2A002C9F5C /* Sauce.m in Sources */,
+				8BC190921B63A04D002C9F5C /* MariaSauce.m in Sources */,
+				8BC190991B63A260002C9F5C /* ChessPizza.m in Sources */,
+				8BDF77591B636409000982A3 /* FroenClam.m in Sources */,
+				8BC1908F1B63A038002C9F5C /* PlumSauce.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BDF77321B63618B000982A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDF773D1B63618B000982A3 /* AbstractFactoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BDF77381B63618B000982A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BDF771C1B63618B000982A3 /* AbstractFactory */;
+			targetProxy = 8BDF77371B63618B000982A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BDF772A1B63618B000982A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BDF772B1B63618B000982A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BDF772F1B63618B000982A3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BDF77301B63618B000982A3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BDF773E1B63618B000982A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = AbstractFactory/ABFactoryPCH.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BDF773F1B63618B000982A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = AbstractFactory/ABFactoryPCH.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BDF77411B63618B000982A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AbstractFactory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BDF77421B63618B000982A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AbstractFactory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8BDF77441B63618B000982A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AbstractFactoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AbstractFactory.app/AbstractFactory";
+			};
+			name = Debug;
+		};
+		8BDF77451B63618B000982A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AbstractFactoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AbstractFactory.app/AbstractFactory";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BDF77181B63618B000982A3 /* Build configuration list for PBXProject "AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BDF773E1B63618B000982A3 /* Debug */,
+				8BDF773F1B63618B000982A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BDF77401B63618B000982A3 /* Build configuration list for PBXNativeTarget "AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BDF77411B63618B000982A3 /* Debug */,
+				8BDF77421B63618B000982A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BDF77431B63618B000982A3 /* Build configuration list for PBXNativeTarget "AbstractFactoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BDF77441B63618B000982A3 /* Debug */,
+				8BDF77451B63618B000982A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BDF77151B63618B000982A3 /* Project object */;
+}
